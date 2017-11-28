@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+nav{
+	background-color: #383B43;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+a{
+	color: #FFF;
+}
+.li1{
+	font-size: 1.2em;
+	padding-left: 3em;
+}
