@@ -1,10 +1,23 @@
 *{
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	box-sizing : border-box;
+	margin: 0px;
+	padding: 0px;
 	list-style: none;
 	text-decoration: none;
 	font-family: 'Roboto', sans-serif;
+}
+.container{
+    position: relative;
+    width:100%;
+    max-width:100%;
+    margin:0px auto;
+    height: auto;
+}
+.row{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
 }
 nav{
 	background-color: #000;
@@ -22,6 +35,8 @@ header{
 	background-image: url(../img/header.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+	padding: 0;
 	text-align: left;
 }
 .logo{
